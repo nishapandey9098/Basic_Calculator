@@ -38,7 +38,7 @@ GUI Library: Tkinter (built-in with Python)
 
 Clone the repository:
 
-git clone https://github.com/<nishapandey9098>/Basic_Calculator.git
+git clone https://github.com/nishapandey9098/Basic_Calculator.git
 cd Basic_Calculator
 
 
