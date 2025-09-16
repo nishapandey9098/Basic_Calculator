@@ -38,7 +38,7 @@ GUI Library: Tkinter (built-in with Python)
 
 Clone the repository:
 
-git clone https://github.com/<your-username>/tkinter-calculator.git
+git clone https://github.com/<nishapandey9098>/Basic-Calculator.git
 cd tkinter-calculator
 
 
