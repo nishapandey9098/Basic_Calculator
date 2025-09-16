@@ -12,15 +12,13 @@ button_values = [
     ["√", "x²", "+/-", "="]
 ]
 
-right_symbols = ["÷", "×", "-", "+", "=", "√", "x²"]
+right_symbols = ["÷", "×", "-", "+", "=", "√", "x²", "+/-", "(", ")", "."]
 top_symbols = ["AC", "⌫", "%"]
-bottom_symbols = ["."]
 row_count = len(button_values)
 column_count = len(button_values[0])
 
 # -------- Colors & window --------
 color_pink = "#F442D0"
-color_purple = "#8304F3"
 color_dark_gray = "#505050"
 color_green = "#00FFCC"
 color_white = "white"
@@ -196,8 +194,6 @@ for r in range(row_count):
             btn.config(foreground=color_black, background=color_pink)
         elif value in right_symbols:
             btn.config(foreground=color_white, background=color_green)
-        elif value in bottom_symbols:
-            btn.config(foreground=color_black, background=color_purple)
         else:
             btn.config(foreground=color_white, background=color_dark_gray)
         btn.grid(row=r+1, column=c, sticky="nsew", padx=2, pady=2)
@@ -215,3 +211,4 @@ x, y = int((sw / 2) - (w / 2)), int((sh / 2) - (h / 2))
 window.geometry(f"{w}x{h}+{x}+{y}")
 
 window.mainloop()
+
