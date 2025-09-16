@@ -20,8 +20,7 @@ This project demonstrates the use of GUI programming in Python, covering layouts
 📐 Centered Window on Launch
 
 📸 Screenshot
-Screenshot.png
-
+https://github.com/nishapandey9098/Basic_Calculator/blob/main/Screenshot%20.png
 
 > Tech Stack
 
