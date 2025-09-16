@@ -46,6 +46,7 @@ Run the calculator:
 
 python calculator.py
 
+
 > How It Works
 
 The app uses Tkinter to build a GUI window.
@@ -60,9 +61,14 @@ The calculator keeps track of:
 
 A → first number
 
-operator → chosen operation (+, -, ×, ÷)
+operator → chosen operation (+, -, ×, ÷,)
 
 B → second number
+
+It calculates the squares and its root.
+
+It has the feature of backspace as well. 
+
 
 > Learning Outcomes
 
@@ -76,15 +82,15 @@ How to handle user interactions (button clicks)
 
 How to store and process data for a calculator logic
 
-> Future Improvements
 
-Add Square Root (√) functionality
+> Future Improvements
 
 Handle Division by Zero errors gracefully
 
 Add Memory functions (M+, M-, MC, MR)
 
 Improve styling with ttkbootstrap for a modern look
+
 
 > Contact
 
